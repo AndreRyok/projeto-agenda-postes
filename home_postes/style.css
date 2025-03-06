@@ -1,0 +1,116 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    background-color: #979afac1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Container principal */
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.santa-clara img{
+    max-width: 500px;
+    padding-left: 18px;
+    padding-bottom: 16px;
+}
+
+/* Div branca centralizada */
+.white-box {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+.white-box h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Opções */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estilo das opções */
+.option {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito hover nas opções */
+.option:hover {
+    background-color: #2142ff67;
+}
+
+/* Estilo do botão do accordion */
+.accordion-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;  /* Ajuste para manter o botão com tamanho adequado */
+}
+
+/* Estilo da seta do accordion */
+.accordion-button::after {
+    margin-left: 5px;  /* Distância entre o texto e a seta */
+}
+
+
+button:hover {
+    background-color: #2142ff67;
+}
+
+.option2{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.option2:hover{
+    background-color: #2142ff67;
+}
+
+
+.poste{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
