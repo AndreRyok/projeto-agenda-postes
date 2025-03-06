@@ -15,6 +15,24 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #e0e0e0;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #d6d6d6;
+}
+
 /* Container principal */
 .container {
     width: 100%;
@@ -76,7 +94,19 @@ body {
     font-size: 18px;
     background-color: #e0e0e0;
     border-radius: 10px;
-    padding: 15px;  /* Ajuste para manter o botão com tamanho adequado */
+    padding: 15px;  
+    margin-bottom: 10px;
+    box-shadow: none;
+    border: none;
+}
+
+.accordion-button.collapsed {
+    border-radius: 10px !important;
+}
+
+.accordion-item{
+    box-shadow: none;
+    border: none;
 }
 
 /* Estilo da seta do accordion */
